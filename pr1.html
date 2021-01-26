@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 22.33%;
+  padding: 10px;
+  height: 750px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 48.33%;
+  padding: 10px;
+  height: 750px; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  width: 29.33%;
+  padding: 10px;
+  height: 750px; /* Should be removed. Only for demonstration */
+}
+
+.column4 {
+  float: left;
+  width: 50.00%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+.column5 {
+  float: left;
+  width: 50.00%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+	 
+  border-radius: 10%;
+      margin-right:16px
+}
+.image{
+	border: 3px solid #FF8C00;
+}
+
+
+.div1 {
+  background-color: white;
+  width: 300px;
+  border: 5px;
+  padding: 2px;
+  margin: 10px;
+}
+</style>
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #grey;
+  color: white;
+}
+
+.topnav .search-container {
+  float: left;
+  background-color: #grey;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: #D0D0D0;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 25px;
+  background: #FF8C00;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #grey;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+
+<style type="text/css">
+.container {
+  position: absolute;
+  font-family: Arial;
+}
+
+.text-block1 {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: brown;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text-block2 {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: skyblue;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column1" style="background-color:#white;">
+    <br>
+   <img src="logo.jpg" width="200">
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+      <div class="div1">
+   	 <a class="inline-flex items-center">
+            <img alt="testimonial" src="home1.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+            </span>
+   </div>
+  </div>
+
+
+
+
+  <div class="column2" style="background-color:#white;">
+    <p style="font-size:25px;"><strong>Streaming</strong> Now</p>
+    <img src="img_avatar.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar2.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar2.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar2.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar.png" class ="image" alt="Avatar" style="width:50px">
+    <img src="img_avatar2.png" class ="image" alt="Avatar" style="width:50px">
+    <br>
+ <p style="font-size:25px;"><strong>Popular</strong> This Week</p>
+
+ <div class="column4" style="background-color:#black;">
+ 	<div class="container">
+  <img src="back1.jpg" alt="Nature" width="290" height="450">
+  <div class="text-block2">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+ </div>
+
+ <div class="column5" style="background-color:#black;">
+ 	<div class="container">
+  <img src="back3.jpg" alt="Nature" width="290" height="450">
+  <div class="text-block1">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+ </div>
+
+<p style="font-size:25px;"><strong>Top</strong> Tutors</p> 
+ 
+  </div>
+
+
+
+
+  <div class="column3" style="background-color:#white;">
+    <p style="font-size:25px;"><strong>Advanced</strong> Search</p>
+<div class="topnav">
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Start writing something..." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+<br>
+<div class="container">
+  <img src="back3.jpg" alt="Nature" width="400" height="200">
+  <div class="text-block1">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="column4" style="background-color:#black;">
+ 	<div class="container">
+  <img src="back1.jpg" alt="Nature" width="190" height="300">
+  <div class="text-block2">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+ </div>
+
+ <div class="column5" style="background-color:#black;">
+ 	<div class="container">
+  <img src="back3.jpg" alt="Nature" width="190" height="300">
+  <div class="text-block1">
+    <h4>Nature</h4>
+    <p>What a beautiful sunrise</p>
+  </div>
+</div>
+
+ </div>
+
+
+  </div>
+
+
+
+
+
+</body>
+</html>
